@@ -201,7 +201,7 @@
     align-items: flex-start;
     border-radius: 23px;
     background-color: #2C49FE;
-    border: none;
+    outline: none;
     border-color: 1px solid #2C49FE;
     padding-right: 12px;
     padding-left: 12px;
@@ -218,6 +218,7 @@
     border-color: grey;
     background-color: 1px solid grey;
     cursor: pointer;
+    outline: none;
 }
 
 .Last-Name {
@@ -230,6 +231,7 @@
     border-color: grey;
     background-color: 1px solid grey;
     cursor: pointer;
+    outline: none;
 }
 
 .Email-Address {
@@ -242,6 +244,7 @@
     border-color: grey;
     background-color: 1px solid grey;
     cursor: pointer;
+    outline: none;
 }
 
 .Password {
@@ -254,6 +257,7 @@
     border-color: grey;
     background-color: 1px solid grey;
     cursor: pointer;
+    outline: none;
 }
 
 .Confirm-Password {
@@ -266,6 +270,7 @@
     border-color: grey;
     background-color: 1px solid grey;
     cursor: pointer;
+    outline: none;
 }
 
 .About-Me {
@@ -278,6 +283,7 @@
     border-color: grey;
     background-color: 1px solid grey;
     cursor: pointer;
+    outline: none;
 }
 
 .w-100 {
@@ -548,6 +554,10 @@
     margin-bottom: 100px;
 }
 
+.mb-90 {
+    margin-bottom: 90px;
+}
+
 .gap {
     gap: 64px;
 }
@@ -584,42 +594,6 @@
     overflow: hidden;
 }
 
-.position-absloute {
-    position: absolute;
-    top: 346%;
-    right: 84%;
-}
-
-.position-absloute2 {
-    position: absolute;
-    top: 346%;
-    right: 32%;
-}
-
-.position-absloute3 {
-    position: absolute;
-    top: 383%;
-    right: 58%;
-}
-
-.position-absloute4 {
-    position: absolute;
-    top: 350%;
-    right: 86%;
-}
-
-.position-absloute5 {
-    position: absolute;
-    top: 349%;
-    right: 34%;
-}
-
-.position-absloute6 {
-    position: absolute;
-    top: 388%;
-    right: 60%;
-}
-
 .bg-img {
     background-image: url(../images/bg-img.png);
     background-repeat: no-repeat;
@@ -641,38 +615,44 @@
 
     .position-absloute {
         position: absolute;
-        top: 456%;
+        top: 502%;
         right: 65%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 456%;
+        top: 502%;
         right: 10%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 498%;
+        top: 545%;
         right: 37%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 460%;
+        top: 506%;
         right: 72%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 460%;
+        top: 506%;
         right: 18%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 502%;
+        top: 549%;
         right: 44%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
     }
 
     .overflow {
@@ -687,38 +667,44 @@
 
     .position-absloute {
         position: absolute;
-        top: 416%;
+        top: 491%;
         right: 65%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 416%;
+        top: 491%;
         right: 13%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 458%;
+        top: 534%;
         right: 39%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 420%;
+        top: 495%;
         right: 71%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 420%;
+        top: 495%;
         right: 19%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 462%;
+        top: 538%;
         right: 45%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
     }
 
     .overflow {
@@ -767,6 +753,12 @@
         right: 45%;
     }
 
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
+    }
+
     .overflow {
         overflow: hidden;
     }
@@ -779,38 +771,44 @@
 
     .position-absloute {
         position: absolute;
-        top: 399%;
+        top: 461%;
         right: 67%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 399%;
+        top: 461%;
         right: 14%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 441%;
+        top: 504%;
         right: 40%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 403%;
+        top: 465%;
         right: 72%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 403%;
+        top: 465%;
         right: 19%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 445%;
+        top: 508%;
         right: 45%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
     }
 
     .overflow {
@@ -825,38 +823,44 @@
 
     .position-absloute {
         position: absolute;
-        top: 397%;
+        top: 415%;
         right: 67%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 397%;
+        top: 415%;
         right: 14%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 439%;
+        top: 458%;
         right: 42%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 401%;
+        top: 419%;
         right: 72%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 401%;
+        top: 419%;
         right: 19%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 443%;
+        top: 462%;
         right: 47%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
     }
 
     .overflow {
@@ -871,38 +875,44 @@
 
     .position-absloute {
         position: absolute;
-        top: 360%;
+        top: 403%;
         right: 70%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 360%;
+        top: 403%;
         right: 17%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 401%;
+        top: 445%;
         right: 43%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 364%;
+        top: 407%;
         right: 74%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 364%;
+        top: 407%;
         right: 21%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 405%;
+        top: 449%;
         right: 47%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
     }
 
     .overflow {
@@ -917,38 +927,44 @@
 
     .position-absloute {
         position: absolute;
-        top: 359%;
+        top: 389%;
         right: 73%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 359%;
+        top: 389%;
         right: 19%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 401%;
+        top: 432%;
         right: 45%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 363%;
+        top: 393%;
         right: 76%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 363%;
+        top: 393%;
         right: 22%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 405%;
+        top: 436%;
         right: 48%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
     }
 
     .overflow {
@@ -963,38 +979,44 @@
 
     .position-absloute {
         position: absolute;
-        top: 360%;
+        top: 389%;
         right: 74%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 360%;
+        top: 389%;
         right: 19%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 402%;
+        top: 432%;
         right: 45%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 364%;
+        top: 393%;
         right: 77%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 364%;
+        top: 393%;
         right: 22%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 406%;
+        top: 436%;
         right: 48%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
     }
 
     .overflow {
@@ -1015,38 +1037,44 @@
 
     .position-absloute {
         position: absolute;
-        top: 169%;
+        top: 197%;
         right: 34%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 169%;
+        top: 197%;
         right: 9%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 201%;
+        top: 229%;
         right: 21%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 172%;
+        top: 200%;
         right: 36%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 172%;
+        top: 200%;
         right: 11%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 204%;
+        top: 232%;
         right: 23%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
     }
 
     .d-lg-none {
@@ -1104,16 +1132,6 @@
     }
 }
 
-@media (max-width:800px) {
-    .d-md-none {
-        display: none;
-    }
-
-    .overflow {
-        overflow: hidden;
-    }
-}
-
 @media (min-width:1200px) {
     .w-100 {
         width: 100%;
@@ -1121,38 +1139,44 @@
 
     .position-absloute {
         position: absolute;
-        top: 185%;
+        top: 190%;
         right: 35%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 186%;
+        top: 190%;
         right: 9%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 220%;
+        top: 226%;
         right: 22%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 188%;
+        top: 193%;
         right: 37%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 189%;
+        top: 193%;
         right: 11%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 224%;
+        top: 229%;
         right: 24%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
     }
 
     .overflow {
@@ -1167,38 +1191,44 @@
 
     .position-absloute {
         position: absolute;
-        top: 170%;
+        top: 173%;
         right: 34%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 170%;
+        top: 173%;
         right: 9%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 204%;
+        top: 208%;
         right: 22%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 173%;
+        top: 176%;
         right: 36%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 174%;
+        top: 176%;
         right: 11%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 208%;
+        top: 211%;
         right: 24%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
     }
 
     .overflow {
@@ -1213,38 +1243,44 @@
 
     .position-absloute {
         position: absolute;
-        top: 149%;
+        top: 153%;
         right: 36%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 149%;
+        top: 153%;
         right: 15%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 180%;
+        top: 182%;
         right: 26%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 152%;
+        top: 156%;
         right: 38%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 152%;
+        top: 156%;
         right: 17%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 183%;
+        top: 185%;
         right: 28%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
     }
 
     .overflow {
@@ -1259,38 +1295,96 @@
 
     .position-absloute {
         position: absolute;
-        top: 139%;
+        top: 142%;
         right: 37%;
     }
 
     .position-absloute2 {
         position: absolute;
-        top: 139%;
+        top: 142%;
         right: 16%;
     }
 
     .position-absloute3 {
         position: absolute;
-        top: 167%;
+        top: 172%;
         right: 26%;
     }
 
     .position-absloute4 {
         position: absolute;
-        top: 142%;
+        top: 144%;
         right: 39%;
     }
 
     .position-absloute5 {
         position: absolute;
-        top: 142%;
+        top: 144%;
         right: 18%;
     }
 
     .position-absloute6 {
         position: absolute;
-        top: 170%;
+        top: 175%;
         right: 28%;
+    }
+
+    .line {
+        position: absolute;
+        top: 38%;
+        left: 40%;
+    }
+
+    .overflow {
+        overflow: hidden;
+    }
+}
+
+@media (min-width:1920px) {
+    .w-100 {
+        width: 100%;
+    }
+
+    .position-absloute {
+        position: absolute;
+        top: 126%;
+        right: 40%;
+    }
+
+    .position-absloute2 {
+        position: absolute;
+        top: 126%;
+        right: 24%;
+    }
+
+    .position-absloute3 {
+        position: absolute;
+        top: 147%;
+        right: 32%;
+    }
+
+    .position-absloute4 {
+        position: absolute;
+        top: 128%;
+        right: 41%;
+    }
+
+    .position-absloute5 {
+        position: absolute;
+        top: 128%;
+        right: 25%;
+    }
+
+    .position-absloute6 {
+        position: absolute;
+        top: 149%;
+        right: 33%;
+    }
+
+    .line {
+        position: absolute;
+        top: 29%;
+        left: 42%;
     }
 
     .overflow {
