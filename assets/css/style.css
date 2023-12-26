@@ -839,6 +839,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+    padding: 15px;
     color: white;
 }
 
@@ -872,7 +873,12 @@
 }
 
 .gallary {
-    font-weight: 120;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .fw400 {
@@ -969,7 +975,6 @@
     background-color: #fff;
     margin-left: 40px;
 }
-
 
 .w-h-line {
     width: 3px;
@@ -1113,7 +1118,6 @@
         right: -100%;
         gap: 25px;
         z-index: 2;
-
     }
 
     input[type="checkbox"]:checked+.mobile_view {
@@ -1139,7 +1143,6 @@
         font-size: 14px;
         justify-content: center;
         align-items: center;
-
     }
 
     .col-xl-12 {
@@ -1197,7 +1200,6 @@
     .line0 {
         display: none;
     }
-
 }
 
 @media (max-width:576px) {
