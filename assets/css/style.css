@@ -572,6 +572,7 @@
     font-weight: 400;
     padding: 10px;
     margin-right: 12px;
+    outline: none;
 }
 
 .email_form {
@@ -583,6 +584,7 @@
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    outline: none;
 }
 
 .First {
@@ -602,6 +604,7 @@
     border: 1px solid #999999;
     border-radius: 5px;
     background: #00000000;
+    outline: none;
 }
 
 .sec4-butn {
