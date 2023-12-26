@@ -34,6 +34,18 @@
     text-align: center;
 }
 
+.ff-poppins {
+    font-family: "poppins", sans-serif;
+}
+
+.ff-Yantramanav {
+    font-family: "Yantramanav", sans-serif;
+}
+
+.object-fit-contain {
+    object-fit: contain;
+}
+
 .py-24 {
     top: 30px;
     bottom: 30px;
@@ -58,7 +70,7 @@
 
 .font-55 {
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -82,7 +94,7 @@
 
 .events1 {
     color: #2C49FE;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -91,7 +103,7 @@
 
 .free {
     color: #01C8FF;
-    font-family: Poppins;
+    font-family: " Poppins", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -109,7 +121,7 @@
 }
 
 .home {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -141,7 +153,7 @@
 
 .h2 {
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
@@ -152,7 +164,7 @@
 
 .para {
     color: #FFF;
-    font-family: Yantramanav;
+    font-family: "Yantramanav", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -170,7 +182,7 @@
     border: none;
     margin-top: 60px;
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -179,7 +191,7 @@
 
 .learn-more {
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -207,7 +219,7 @@
 
 .bg-color {
     color: #FFF;
-    font-family: Yantramanav;
+    font-family: Y"antramanav", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -215,8 +227,8 @@
 }
 
 .bg-color-1 {
-    color: rgba(255, 255, 255, 0.70);
-    font-family: Yantramanav;
+    color: #ffffffb3;
+    font-family: "Yantramanav", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -253,7 +265,7 @@
     background: #FFF;
     border: none;
     color: #2C49FE;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -263,7 +275,7 @@
 
 .btn1 {
     color: #2C49FE;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -308,7 +320,7 @@
 
 .h3 {
     color: #000;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -316,8 +328,8 @@
 }
 
 .para1 {
-    color: rgba(0, 0, 0, 0.70);
-    font-family: Poppins;
+    color: #000000b3;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -328,7 +340,7 @@
     width: 708px;
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -340,7 +352,7 @@
     width: 765px;
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -374,7 +386,7 @@
 
 .number {
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -383,7 +395,7 @@
 
 .words {
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -394,7 +406,7 @@
 .h4 {
     width: 338px;
     color: #000;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -403,8 +415,8 @@
 
 .para3 {
     width: 543px;
-    color: rgba(0, 0, 0, 0.70);
-    font-family: Poppins;
+    color: #000000b3;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -413,7 +425,7 @@
 
 .learn {
     color: #000;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -423,7 +435,7 @@
 .card {
     border-radius: 5px;
     background: #FFF;
-    box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 2px 9px 32px 0px #0000000f;
 }
 
 .pt-90 {
@@ -431,8 +443,8 @@
 }
 
 .date {
-    color: rgba(0, 0, 0, 0.70);
-    font-family: Poppins;
+    color: #000000b3;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -441,7 +453,7 @@
 
 .h5 {
     color: #000;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -450,8 +462,8 @@
 
 .para4 {
     max-width: 270px;
-    color: rgba(0, 0, 0, 0.70);
-    font-family: Poppins;
+    color: #000000b3;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -464,7 +476,7 @@
 
 .h6 {
     color: #000;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -473,8 +485,8 @@
 
 .para5 {
     max-width: 543px;
-    color: rgba(0, 0, 0, 0.70);
-    font-family: Poppins;
+    color: #000000b3;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -498,7 +510,7 @@
 
 .signup {
     color: #000;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 35px;
     font-weight: 700;
 }
@@ -551,7 +563,7 @@
     height: 42px;
     border-radius: 5px;
     border: 1px solid #999999;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     padding: 10px;
@@ -564,7 +576,7 @@
     height: 42px;
     border-radius: 5px;
     border: 1px solid #999999;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -574,7 +586,7 @@
 }
 
 .about {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 80px;
@@ -585,7 +597,7 @@
     height: 124px;
     border: 1px solid #999999;
     border-radius: 5px;
-    background: rgba(0, 0, 0, 0.00);
+    background: #00000000;
 }
 
 .sec4-butn {
@@ -600,7 +612,7 @@
     justify-content: center;
     align-items: center;
     color: #FFF;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     border-radius: 23px;
     background: #2C49FE;
@@ -630,7 +642,7 @@
     text-align: center;
     color: #2C49FE;
     margin-top: 50px;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
@@ -641,7 +653,7 @@
     width: 220px;
     color: #2C49FE;
     text-align: center;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     padding-left: 23px;
     font-style: normal;
@@ -734,7 +746,7 @@
 
 .free {
     color: #01C8FF;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -754,7 +766,7 @@
     color: white;
     font-size: 14px;
     font-weight: 400;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     margin-left: 15px;
 }
 
@@ -818,7 +830,7 @@
 
 .show-more {
     text-align: center;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
@@ -848,7 +860,7 @@
 .box_1 {
     width: 90px;
     height: 60px;
-    background-color: blue;
+    background-color: #18205C;
 }
 
 .gap_20 {
@@ -888,7 +900,7 @@
 }
 
 .home1 {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -928,7 +940,7 @@
 
 .svg-text1 {
     color: #FFF;
-    font-family: Yantramanav;
+    font-family: "Yantramanav", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -936,8 +948,8 @@
 }
 
 .svg-text2 {
-    color: rgba(255, 255, 255, 0.70);
-    font-family: Yantramanav;
+    color: #ffffffb3;
+    font-family: "Yantramanav", sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -977,7 +989,7 @@
 .h-btn3 {
     padding: 20px 30px;
     color: #2C49FE;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -1105,7 +1117,7 @@
     }
 
     input[type="checkbox"]:checked+.mobile_view {
-        background-color: rgb(0, 0, 0);
+        background-color: #000000;
         right: 0;
     }
 
