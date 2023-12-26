@@ -26,6 +26,10 @@
     justify-content: space-between;
 }
 
+.justify-content-end {
+    justify-content: end;
+}
+
 .justify-content-center {
     justify-content: center;
 }
@@ -56,7 +60,7 @@
 }
 
 .container {
-    max-width: 1320px;
+    max-width: 1220px;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
@@ -96,6 +100,12 @@
     background-position: center;
 }
 
+.Line {
+    position: absolute;
+    top: 38%;
+    left: 39%;
+}
+
 .events1 {
     color: #2C49FE;
     font-family: "Poppins", sans-serif;
@@ -114,8 +124,8 @@
     line-height: 135%;
 }
 
-.py-40 {
-    padding-top: 40px;
+.py-20 {
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -251,12 +261,6 @@
     position: absolute;
 }
 
-.line {
-    width: 3px;
-    height: 74px;
-    background: #FFF;
-}
-
 .min-vh-100 {
     min-height: 100vh;
 }
@@ -316,10 +320,6 @@
 
 .pt-8 {
     padding-top: 8px;
-}
-
-.line6 {
-    top: 100%;
 }
 
 .h3 {
@@ -819,10 +819,6 @@
     padding-top: 50px;
 }
 
-.justify-content-end {
-    justify-content: end;
-}
-
 .w-100 {
     width: 100%;
 }
@@ -897,12 +893,6 @@
 
 .mt-30 {
     margin-top: -30px;
-}
-
-.Line {
-    position: absolute;
-    top: 41%;
-    left: 36%;
 }
 
 .home1 {
