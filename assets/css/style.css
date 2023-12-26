@@ -34,6 +34,10 @@
     text-align: center;
 }
 
+.flex_col {
+    flex-direction: column;
+}
+
 .ff-poppins {
     font-family: "poppins", sans-serif;
 }
@@ -851,10 +855,6 @@
 
 .gap_10 {
     gap: 10px;
-}
-
-.flex_col {
-    flex-direction: column;
 }
 
 .box_1 {
