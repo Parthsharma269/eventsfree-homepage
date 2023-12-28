@@ -10,6 +10,103 @@
     list-style-type: none;
 }
 
+:root {
+
+    /* font-size */
+
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-25: 25px;
+    --fs-35: 35px;
+    --fs-36: 36px;
+    --fs-48: 48px;
+    --fs-64: 64px;
+
+    /* font-weight */
+
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+
+    /* font-family */
+
+    --ff-poppins: "poppins", sans-serif;
+    --ff-Yantramanav: "Yantramanav", sans-serif;
+}
+
+.fs-12 {
+    font-size: var(--fs-12);
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+.fs-25 {
+    font-size: var(--fs-25);
+}
+
+.fs-35 {
+    font-size: var(--fs-35);
+}
+
+.fs-36 {
+    font-size: var(--fs-36);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-64 {
+    font-size: var(--fs-64);
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.ff-poppins {
+    font-family: "poppins", sans-serif;
+}
+
+.ff-Yantramanav {
+    font-family: "Yantramanav", sans-serif;
+}
+
 .mt-6 {
     margin-top: 90px;
 }
@@ -42,12 +139,8 @@
     flex-direction: column;
 }
 
-.ff-poppins {
-    font-family: "poppins", sans-serif;
-}
-
-.ff-Yantramanav {
-    font-family: "Yantramanav", sans-serif;
+.cursor-pointer {
+    cursor: pointer;
 }
 
 .object-fit-contain {
@@ -78,11 +171,6 @@
 
 .font-55 {
     color: #FFF;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     margin-left: 1%;
 }
 
@@ -108,20 +196,10 @@
 
 .events1 {
     color: #2C49FE;
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 135%;
 }
 
 .free {
     color: #01C8FF;
-    font-family: " Poppins", sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 135%;
 }
 
 .py-20 {
@@ -135,14 +213,11 @@
 }
 
 .home {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
     margin-left: 44px;
+    cursor: pointer;
 }
 
 .btn2 {
@@ -159,6 +234,7 @@
     margin-top: -15px;
     width: 118px;
     height: 46px;
+    cursor: pointer;
 }
 
 .gap-20 {
@@ -167,10 +243,6 @@
 
 .h2 {
     color: #FFF;
-    font-family: "Poppins", sans-serif;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 150.5%;
     max-width: 1044px;
     margin-top: 100px;
@@ -178,11 +250,6 @@
 
 .para {
     color: #FFF;
-    font-family: "Yantramanav", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     max-width: 765px;
 }
 
@@ -196,20 +263,13 @@
     border: none;
     margin-top: 60px;
     color: #FFF;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-style: normal;
     font-weight: 600;
     line-height: 150%;
+    cursor: pointer;
 }
 
 .learn-more {
     color: #FFF;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
     margin-left: 20px;
 }
 
@@ -233,20 +293,10 @@
 
 .bg-color {
     color: #FFF;
-    font-family: "Yantramanav", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .bg-color-1 {
     color: #ffffffb3;
-    font-family: "Yantramanav", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .relative {
@@ -273,21 +323,12 @@
     background: #FFF;
     border: none;
     color: #2C49FE;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     margin-right: 40px;
+    cursor: pointer;
 }
 
 .btn1 {
     color: #2C49FE;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     background-color: white;
     width: 185px;
     height: 70px;
@@ -295,6 +336,7 @@
     border-radius: 150px;
     background: #FFF;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .mt-1 {
@@ -324,31 +366,16 @@
 
 .h3 {
     color: #000;
-    font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .para1 {
     color: #000000b3;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .lorem {
     width: 708px;
     color: #FFF;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 130%;
     padding-top: 30px;
 }
 
@@ -356,11 +383,6 @@
     width: 765px;
     color: #FFF;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding-bottom: 20px;
 }
 
@@ -390,56 +412,32 @@
 
 .number {
     color: #FFF;
-    font-family: "Poppins", sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .words {
     color: #FFF;
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin-left: -10px;
 }
 
 .h4 {
     width: 338px;
     color: #000;
-    font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 136.505%;
 }
 
 .para3 {
     width: 543px;
     color: #000000b3;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .learn {
     color: #000;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .card {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 2px 9px 32px 0px #0000000f;
+    cursor: pointer;
 }
 
 .pt-90 {
@@ -448,30 +446,15 @@
 
 .date {
     color: #000000b3;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .h5 {
     color: #000;
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .para4 {
     max-width: 270px;
     color: #000000b3;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .ml-20 {
@@ -480,19 +463,11 @@
 
 .h6 {
     color: #000;
-    font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .para5 {
     max-width: 543px;
     color: #000000b3;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
 }
 
 .img {
@@ -514,9 +489,7 @@
 
 .signup {
     color: #000;
-    font-family: "Poppins", sans-serif;
-    font-size: 35px;
-    font-weight: 700;
+    cursor: pointer;
 }
 
 .txt {
@@ -540,6 +513,7 @@
     align-items: flex-start;
     border-radius: 23px;
     background: #2C49FE;
+    cursor: pointer;
 }
 
 .pl-24 {
@@ -567,12 +541,10 @@
     height: 42px;
     border-radius: 5px;
     border: 1px solid #999999;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
     padding: 10px;
     margin-right: 12px;
     outline: none;
+    cursor: pointer;
 }
 
 .email_form {
@@ -581,10 +553,8 @@
     height: 42px;
     border-radius: 5px;
     border: 1px solid #999999;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
     outline: none;
+    cursor: pointer;
 }
 
 .First {
@@ -592,9 +562,6 @@
 }
 
 .about {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
     padding-bottom: 80px;
     padding-left: 10px;
     margin-top: 16px;
@@ -605,6 +572,7 @@
     border-radius: 5px;
     background: #00000000;
     outline: none;
+    cursor: pointer;
 }
 
 .sec4-butn {
@@ -619,11 +587,8 @@
     justify-content: center;
     align-items: center;
     color: #FFF;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
     border-radius: 23px;
     background: #2C49FE;
-    font-weight: 600;
 }
 
 .images1 {
@@ -640,7 +605,6 @@
 .box {
     width: 260px;
     height: 198px;
-    flex-shrink: 0;
     border-radius: 5px;
     background: #2C49FE;
 }
@@ -649,22 +613,13 @@
     text-align: center;
     color: #2C49FE;
     margin-top: 50px;
-    font-family: "Poppins", sans-serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .para-1 {
     width: 220px;
     color: #2C49FE;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
     padding-left: 23px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 150%;
 }
 
@@ -691,6 +646,7 @@
     background-color: #FFF;
     right: 30%;
     border: 3px solid #2C49FE;
+    cursor: pointer;
 }
 
 .card-2 {
@@ -703,6 +659,7 @@
     background: #fff;
     border: 3px solid #2C49FE;
     position: relative;
+    cursor: pointer;
 }
 
 .card-3 {
@@ -715,6 +672,7 @@
     background: #fff;
     border: 3px solid #2C49FE;
     position: relative;
+    cursor: pointer;
 }
 
 .min-height-867 {
@@ -744,20 +702,10 @@
 
 .events {
     color: #2C49FE;
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 135%;
 }
 
 .free {
     color: #01C8FF;
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 135%;
 }
 
 .row {
@@ -771,9 +719,6 @@
 .para_2 {
     max-width: 346px;
     color: white;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
     margin-left: 15px;
 }
 
@@ -815,10 +760,6 @@
 .gallary {
     color: white;
     width: 61px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     padding-top: 50px;
 }
 
@@ -828,24 +769,17 @@
 
 .show-more {
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%;
     padding: 15px;
     color: white;
 }
 
 .credits {
     margin-bottom: 10px;
-    color: #FFF;
-    font-style: normal;
-    font-weight: 400;
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .gap_10 {
@@ -868,11 +802,6 @@
 
 .gallary {
     color: #FFF;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .fw400 {
@@ -894,14 +823,11 @@
 }
 
 .home1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
     margin-left: 44px;
+    cursor: pointer;
 }
 
 .ml-64 {
@@ -934,20 +860,10 @@
 
 .svg-text1 {
     color: #FFF;
-    font-family: "Yantramanav", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 .svg-text2 {
     color: #ffffffb3;
-    font-family: "Yantramanav", sans-serif;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .w-line {
@@ -983,10 +899,6 @@
     padding: 20px 30px;
     color: #2C49FE;
     font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     border-radius: 150px;
     border: none;
 }
@@ -1143,8 +1055,6 @@
 
     .md-h-btn {
         padding: 10px 40px;
-        font-size: 16px;
-        font-weight: 700;
         border-radius: 40px;
         margin-top: 30px;
         justify-content: center;
