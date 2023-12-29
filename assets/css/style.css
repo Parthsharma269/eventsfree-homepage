@@ -1244,6 +1244,7 @@
 
     :root {
         --fs-16: 8px;
+        --fs-14: 13px;
         --fs-48: 19px;
     }
 }
@@ -1251,6 +1252,10 @@
 @media (max-width:765px) {
     .para {
         max-width: 765px;
+    }
+
+    .pb-20 {
+        padding-bottom: 20px;
     }
 
     .justify-content-center {
@@ -1272,7 +1277,7 @@
         --fs-35: 35px;
         --fs-36: 36px;
         --fs-48: 48px;
-        --fs-64: 64px;
+        --fs-64: 29px;
     }
 }
 
