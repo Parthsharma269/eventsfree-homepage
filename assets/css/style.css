@@ -929,18 +929,8 @@
 
 @media (max-width:320px) {
     :root {
-
-        /* font-size */
-
-        --fs-12: 12px;
-        --fs-14: 14px;
         --fs-16: 9px;
-        --fs-18: 18px;
         --fs-20: 7px;
-        --fs-24: 24px;
-        --fs-25: 25px;
-        --fs-35: 35px;
-        --fs-36: 36px;
         --fs-48: 34px;
         --fs-64: 27px;
     }
@@ -1003,20 +993,6 @@
 
     .ml-lg-110 {
         margin-left: 100px;
-    }
-
-    :root {
-        --fs-12: 12px;
-        --fs-14: 14px;
-        --fs-16: 16px;
-        --fs-18: 18px;
-        --fs-20: 20px;
-        --fs-24: 24px;
-        --fs-25: 25px;
-        --fs-35: 35px;
-        --fs-36: 36px;
-        --fs-48: 48px;
-        --fs-64: 64px;
     }
 
     label[for="menuicon"] {
@@ -1139,20 +1115,6 @@
     .para2 {
         width: 570px;
     }
-
-    :root {
-        --fs-12: 12px;
-        --fs-14: 14px;
-        --fs-16: 12px;
-        --fs-18: 18px;
-        --fs-20: 20px;
-        --fs-24: 24px;
-        --fs-25: 25px;
-        --fs-35: 35px;
-        --fs-36: 36px;
-        --fs-48: 27px;
-        --fs-64: 64px;
-    }
 }
 
 @media (max-width:576px) {
@@ -1207,17 +1169,7 @@
     }
 
     :root {
-        --fs-12: 12px;
-        --fs-14: 14px;
-        --fs-16: 12px;
-        --fs-18: 18px;
-        --fs-20: 20px;
-        --fs-24: 24px;
-        --fs-25: 25px;
-        --fs-35: 35px;
-        --fs-36: 36px;
         --fs-48: 27px;
-        --fs-64: 64px;
     }
 }
 
@@ -1244,7 +1196,6 @@
 
     :root {
         --fs-16: 8px;
-        --fs-14: 13px;
         --fs-48: 19px;
     }
 }
@@ -1254,30 +1205,12 @@
         max-width: 765px;
     }
 
-    .pb-20 {
-        padding-bottom: 20px;
-    }
-
     .justify-content-center {
         justify-content: center;
     }
 
     .col-pt-12 {
         width: 100%;
-    }
-
-    :root {
-        --fs-12: 12px;
-        --fs-14: 14px;
-        --fs-16: 16px;
-        --fs-18: 18px;
-        --fs-20: 20px;
-        --fs-24: 24px;
-        --fs-25: 25px;
-        --fs-35: 35px;
-        --fs-36: 36px;
-        --fs-48: 48px;
-        --fs-64: 29px;
     }
 }
 
@@ -1286,20 +1219,6 @@
         position: absolute;
         top: 44%;
         left: 44%;
-    }
-
-    :root {
-        --fs-12: 12px;
-        --fs-14: 14px;
-        --fs-16: 16px;
-        --fs-18: 18px;
-        --fs-20: 20px;
-        --fs-24: 24px;
-        --fs-25: 25px;
-        --fs-35: 35px;
-        --fs-36: 36px;
-        --fs-48: 48px;
-        --fs-64: 64px;
     }
 }
 
@@ -1316,19 +1235,5 @@
         position: absolute;
         top: 48%;
         left: 38%;
-    }
-
-    :root {
-        --fs-12: 12px;
-        --fs-14: 14px;
-        --fs-16: 16px;
-        --fs-18: 18px;
-        --fs-20: 20px;
-        --fs-24: 24px;
-        --fs-25: 25px;
-        --fs-35: 35px;
-        --fs-36: 36px;
-        --fs-48: 48px;
-        --fs-64: 64px;
     }
 }
