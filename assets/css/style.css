@@ -1167,6 +1167,14 @@
     }
 }
 
+@media (max-width:1024px) {
+    .Line {
+        position: absolute;
+        top: 44%;
+        left: 44%;
+    }
+}
+
 @media (max-width:1200px) {
     .col-xxl-12 {
         width: 100%;
