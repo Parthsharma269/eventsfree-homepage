@@ -147,6 +147,10 @@
     object-fit: contain;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
 .py-24 {
     top: 30px;
     bottom: 30px;
