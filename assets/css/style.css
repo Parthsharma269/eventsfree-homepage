@@ -1172,7 +1172,12 @@
         width: 570px;
     }
 
+    .para3 {
+        width: 556px;
+    }
+
     :root {
+        --fs-16: 12px;
         --fs-48: 27px;
     }
 }
