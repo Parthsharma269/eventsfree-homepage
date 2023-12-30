@@ -749,7 +749,7 @@
 
 .col-4 {
     width: 33.33%;
-    padding: 6px 6px 6px 6px;
+    padding: 6px;
 }
 
 .pt_50 {
@@ -1066,7 +1066,7 @@
     }
 
     .col-xl-12 {
-        width: 50%;
+        width: 193px;
     }
 
     .pl-18 {
