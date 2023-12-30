@@ -1046,6 +1046,12 @@
         margin-left: 100px;
     }
 
+    .Line {
+        position: absolute;
+        top: 44%;
+        left: 45%;
+    }
+
     label[for="menuicon"] {
         width: 30px;
         height: 30px;
@@ -1153,6 +1159,12 @@
 
     .justify-content-center {
         justify-content: center;
+    }
+
+    .Line {
+        position: absolute;
+        top: 59%;
+        left: 38%;
     }
 
     .line0 {
