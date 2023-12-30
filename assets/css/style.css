@@ -639,9 +639,45 @@
     flex-shrink: 0;
     border-radius: 5px;
     margin-top: 46px;
-    background: #fff;
+    background: #ffffff;
     border: 3px solid #2C49FE;
     position: relative;
+}
+
+.card-1:hover {
+    transition: all 255ms linear;
+    background-color: #2C49FE;
+    color: #ffffff;
+}
+
+.card-1:hover .h7,
+.card-1:hover .para-1 {
+    color: #fff;
+    transition: all 555ms ease linear;
+}
+
+.card-2:hover {
+    transition: all 555ms linear;
+    background-color: #2C49FE;
+    color: #ffffff;
+}
+
+.card-2:hover .h7,
+.card-2:hover .para-1 {
+    color: #ffffff;
+    transition: all 555ms ease linear;
+}
+
+.card-3:hover {
+    transition: all 555ms linear;
+    background-color: #2C49FE;
+    color: #ffffff;
+}
+
+.card-3:hover .h7,
+.card-3:hover .para-1 {
+    color: #ffffff;
+    transition: all 555ms ease linear;
 }
 
 .cardbox {
@@ -847,6 +883,10 @@
     padding: 17px 23px 17px 35px;
 }
 
+.responsive-row {
+    max-width: 960px;
+}
+
 .mt-145 {
     margin-top: 145px;
 }
@@ -867,21 +907,21 @@
     width: 3px;
     height: 74px;
     background-color: #fff;
-    margin-left: 30px;
+    margin-left: 36px;
 }
 
 .w-line-1 {
     width: 3px;
     height: 74px;
     background-color: #fff;
-    margin-left: 40px;
+    margin-left: 36px;
 }
 
 .w-h-line {
     width: 3px;
     height: 74px;
     background-color: #fff;
-    margin-left: 40px;
+    margin-left: 36px;
 }
 
 .pl-25 {
@@ -1096,7 +1136,7 @@
         height: 3px;
         min-width: 95%;
         top: 50%;
-        left: -13%;
+        left: -11%;
     }
 
     .absolute-md {
@@ -1264,5 +1304,11 @@
         position: absolute;
         top: 48%;
         left: 38%;
+    }
+}
+
+@media (max-width:1440px) {
+    :root {
+        --fs-14: 12px;
     }
 }
