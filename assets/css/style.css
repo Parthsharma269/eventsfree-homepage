@@ -788,7 +788,6 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    cursor: pointer;
 }
 
 .gap_10 {
@@ -931,10 +930,24 @@
 }
 
 @media (max-width:320px) {
+    .lorem {
+        width: 323px;
+    }
+
+    .para2 {
+        width: 318px;
+    }
+
+    .para3 {
+        width: 318px;
+    }
+
     :root {
+        --fs-14: 10px;
         --fs-16: 9px;
         --fs-20: 7px;
         --fs-48: 34px;
+        --fs-48: 15px;
         --fs-64: 27px;
     }
 }
@@ -1112,11 +1125,17 @@
     }
 
     .lorem {
-        width: 575px;
+        width: 768px;
     }
 
     .para2 {
-        width: 570px;
+        width: 768px;
+    }
+
+    :root {
+        --fs-16: 13px;
+        --fs-48: 26px;
+        --fs-35: 26px;
     }
 }
 
@@ -1229,6 +1248,11 @@
         position: absolute;
         top: 44%;
         left: 44%;
+    }
+
+    :root{
+        --fs-14: 13px;
+        --fs-48: 40px;
     }
 }
 
