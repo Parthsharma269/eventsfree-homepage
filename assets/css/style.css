@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Yantramanav&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     padding: 0;
@@ -166,7 +164,6 @@
     padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
 }
 
 .row {
@@ -739,8 +736,8 @@
     padding-bottom: 100px;
 }
 
-.mt-36 {
-    margin-top: 36px;
+.pt-26 {
+    padding-top: 36px;
 }
 
 .events {
@@ -882,7 +879,7 @@
 }
 
 .responsive-row {
-    max-width: 960px;
+    max-width: 962px;
 }
 
 .mt-145 {
@@ -996,10 +993,6 @@
 
     .di-flex {
         display: flex;
-    }
-
-    .col-sm-6 {
-        width: 50%;
     }
 
     .justify-content-c {
@@ -1313,21 +1306,10 @@
     :root {
         --fs-14: 12px;
     }
+
     .Line {
         position: absolute;
         top: 38%;
         left: 39%;
-    }
-}
-
-@media (max-width:1920px) {
-    :root {
-        --fs-14: 12px;
-    }
-
-    .Line {
-        position: absolute;
-        top: 29%;
-        left: 42%;
     }
 }
