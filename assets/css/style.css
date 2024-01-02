@@ -625,10 +625,8 @@
 }
 
 .para-1 {
-    width: 220px;
     color: #2C49FE;
     text-align: center;
-    padding-left: 23px;
     line-height: 150%;
 }
 
@@ -979,7 +977,7 @@
 
     :root {
         --fs-14: 10px;
-        --fs-16: 9px;
+        --fs-16: 16px;
         --fs-20: 7px;
         --fs-48: 34px;
         --fs-48: 15px;
@@ -1101,10 +1099,6 @@
         width: calc(50%);
     }
 
-    .col-lg-12 {
-        width: 100%;
-    }
-
     .h-btn3 {
         font-size: 14px;
         justify-content: center;
@@ -1191,10 +1185,6 @@
         width: 100%;
     }
 
-    .col-sm-12 {
-        width: 100%;
-    }
-
     .mb-sm-16 {
         margin-bottom: 16px;
     }
@@ -1271,7 +1261,7 @@
     }
 
     :root {
-        --fs-16: 8px;
+        --fs-16: 16px;
         --fs-48: 19px;
     }
 }
@@ -1322,5 +1312,22 @@
 @media (max-width:1440px) {
     :root {
         --fs-14: 12px;
+    }
+    .Line {
+        position: absolute;
+        top: 38%;
+        left: 39%;
+    }
+}
+
+@media (max-width:1920px) {
+    :root {
+        --fs-14: 12px;
+    }
+
+    .Line {
+        position: absolute;
+        top: 29%;
+        left: 42%;
     }
 }
