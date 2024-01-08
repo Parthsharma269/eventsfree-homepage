@@ -867,7 +867,7 @@
 }
 
 .responsive-row {
-    max-width: 962px;
+    max-width: 900px;
 }
 
 .mt-145 {
@@ -1264,7 +1264,7 @@
         width: 375px;
     }
 
-    :root{
+    :root {
         --fs-16: 12px;
         --fs-48: 20px;
     }
