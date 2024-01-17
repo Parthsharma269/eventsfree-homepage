@@ -224,7 +224,12 @@
 }
 
 .home:hover {
- -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.Log-Out {
+    color: #ffffff;
+    cursor: pointer;
 }
 
 .btn2 {
