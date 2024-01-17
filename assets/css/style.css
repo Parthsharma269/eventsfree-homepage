@@ -224,9 +224,7 @@
 }
 
 .home:hover {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
+ -webkit-text-stroke: 1px #ffffff;
 }
 
 .btn2 {
@@ -679,10 +677,10 @@
     background: #ffffff;
     border: 3px solid #2C49FE;
     position: relative;
+    transition: all 500ms linear;
 }
 
 .card-1:hover {
-    transition: all 555ms ease linear;
     background-color: #2C49FE;
     color: #ffffff;
 }
