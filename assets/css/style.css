@@ -208,9 +208,9 @@
     padding-bottom: 10px;
 }
 
-.py-45 {
-    padding-top: 45px;
-    padding-bottom: 45px;
+.py-55 {
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .svg {
@@ -761,7 +761,8 @@
 
 .col-4 {
     width: 33.33%;
-    padding: 6px;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 
 .pt_50 {
@@ -785,6 +786,10 @@
 
 .w-100 {
     width: 100%;
+}
+
+.w-150 {
+    width: 150%;
 }
 
 .show-more {
@@ -1248,7 +1253,11 @@
     }
 
     .para3 {
-        width: 556px;
+        width: 400px;
+    }
+
+    .cardbox {
+        right: 42%;
     }
 
     :root {
@@ -1306,7 +1315,11 @@
     }
 
     .para3 {
-        width: 371px;
+        width: 300px;
+    }
+
+    .h4 {
+        width: 307px;
     }
 
     .cardbox {
